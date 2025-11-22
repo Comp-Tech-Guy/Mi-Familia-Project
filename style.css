@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+
+body{
+    background-color: black;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+*{
+    color:white;
+    font-family:"Science Gothic";
+    font-weight: 500;
+}
+
+header .HeaderContainer{
+    display: flex;
+    backdrop-filter: blur(10px);
+    background-color: rgb(255,255,255, 0.1);
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    border:1px solid rgba(255, 255, 255, 0.2);
+}
+
+header .Divwrapper{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+}
+
+header .Divwrapper nav a{
+    text-decoration: none;
+    margin: 0 10px;
+    border-bottom:2px transparent solid;
+    transition: border-bottom 0.3s ease;
+}
+
+header .Divwrapper nav a:hover{
+    border-bottom:2px #00ffff solid;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    top:0;
+    width: 100%;
+    justify-content: center;
+}
+
+.Container{
+    height: 1000px;
+    width: 100%;
+}
+
+.Container h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size:7rem;
+}
+
+.Container h1 {
+    background-image: linear-gradient(55deg, #5b0087, #00808d);
+    background-clip: text;
+    background-size: 400% 400%;
+    color:transparent;
+
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    -o-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
