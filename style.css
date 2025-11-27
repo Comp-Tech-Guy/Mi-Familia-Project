@@ -179,10 +179,14 @@ header {
     z-index: 1;
 }
 
+.center .longLine{
+    width: 100%;
+}
+
 .center .longLine::before{
-    left:44.1%;
     top:50%;
-    width: 123px;
+    left:57.5px;
+    width:123px;
 }
 
 .centerBottom .PersonCard::before{
@@ -196,8 +200,21 @@ header {
 }
 
 .centerTop .betweenLine::before{
-    width: 890px;
-    left:-360px;
+    width: 0px;
+}
+.centerTop .betweenLine::after{
+    top: 51%;
+}
+
+.center .longestLine::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    /* width: 84.12%; */
+    top:22%;
+    background-color: white;
+    left: 48.5px;
+    right:119px;
 }
 
 .Family-Tree{
