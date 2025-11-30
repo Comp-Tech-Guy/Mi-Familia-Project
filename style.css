@@ -279,9 +279,26 @@ header {
     margin:0;
     color: black;
     z-index: 1;
-    background-color: rgba(255,255,255,0.7);
+    font-size: medium;
+    /* background-color: rgba(255,255,255,0.7); */
     width: 100%;
     text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.PersonCard p{
+    margin:0;
+    color: black;
+    z-index: 1;
+    /* background-color: rgba(255,255,255,0.7); */
+    width: 100%;
+    text-align: center;
+}
+
+.textCont{
+    background-color: rgba(255,255,255,0.7);
+    z-index: 1;
+    width: 100%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
